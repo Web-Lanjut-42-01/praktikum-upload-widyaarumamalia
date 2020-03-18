@@ -1,0 +1,13 @@
+Restoran UpNormal membutuhkan form untuk menginputkan menu makanan mereka.Buatlah form untuk membuat menu makanan yang mampu menangani upload file dengan CodeIgniter. File yang diupload adalah foto makanan tersebut. Data yang dikirim adalah
+-nama makanan 
+-Bahan makanan
+-harga makanan
+-foto makanan 
+
+Menu makanan ini disimpan ke dalam database yang memiliki format berikut:
+idmakanan (int 255) Primary Key autoincrement
+namamakanan (text)
+hargamakanan (int 255)
+fotomakanan (text)
+
+Foto makanan disimpan ke dalam folder aplikasi, beri nama foldernya dengan "foto". yang disimpan ke dalam databasenya adalah path dari file tersebut. Tampilkan juga menu-menu yang telah diinputkan ke dalam database.
